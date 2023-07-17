@@ -1,0 +1,195 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+* {
+  border: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+  align-items: center;
+  margin: 0;
+  background-image: url(images/creative-geometric-design-space_53876-89781.avif);
+  background-attachment:fixed ;
+}
+nav>a:hover{
+  color:rgb(208, 40, 99);
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  min-width: 100px;
+}
+section{
+  height:100vh;
+  width: 100%;
+  padding:30px;
+}
+.section-home{
+  height:100vh;
+  background-image: url(images/creative-geometric-design-space_53876-89781.avif);
+  background-attachment: fixed;
+  padding:30px 40px;
+}
+nav{
+  margin: 25px" 
+}
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 500;
+  font-size: 20px;
+  scroll-behavior: smooth;
+}
+h1 {
+  font-weight: 1000;
+  margin: 25px 25px 25px 200px;
+  font-size: 40px;
+  color: rgb(208, 40, 99);
+}
+.title { 
+  text-align: center;
+  color: #000;
+  font-weight: 900;
+  font-size: 2em;
+  margin:100px auto;
+}
+
+span {
+  text-decoration: dashed;
+  color: crimson;
+ }
+
+.content{
+  display:flex;
+  padding:20px;
+  justify-content: center;
+  align-items: center;
+  }
+
+.home-content {
+  display:block;
+  text-align: left;
+  margin:200px;
+  color:#fff
+}
+
+.home-content h2{
+  font-size:70px;
+  font-family: 700;
+}
+
+.home-content a{
+  text-decoration:none ;
+  display:flex;
+  background-color:rgb(208, 40, 99);
+  width:180px;
+  height:50px;
+  border-radius: 15px;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;  
+  transition:250ms ease;
+}
+.home-content a:hover{
+  color:#000;
+  transform:scale(1.2)
+}
+.home-content p{
+  display:block;
+  font-size:15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left:30px;
+}
+
+.section-about .content{
+  flex-direction: column;
+}
+#name{
+  font-weight: 700;
+  width:400px;
+  border-bottom: 1px solid #000;
+  text-align: center;
+  color:#7c7b7b;
+}
+.section-work{
+  background-color: #000;
+}
+.section-work h2 {
+  color:#ffffff
+}
+.section-work  p{
+  display:inline-block;
+  width:700px;
+  color:#fff;
+}
+
+#loading-icon{
+  font-size:100px;
+  color: #7c7b7b;
+  
+}
+.section-resume .content{
+  flex-direction: column;
+}
+.card{
+  width:300px;
+  height:400px;
+  box-shadow:0 5px 25px #7c7b7b ;
+  margin:0 30px 0 30px; 
+  padding:20px;
+  border-radius: 20px;
+  transition:300ms ease;
+}
+
+.card:hover{
+  transform:scale(1.1)
+}
+.icons{
+  font-size:100px;
+  justify-content: center;
+  display: flex;
+  margin:50px 20px;
+  color:rgb(208, 40, 99);
+}
+h3{
+  display:block;
+  font-size: 30px;
+  color:rgb(208, 40, 99);
+  text-align: center;
+  font-weight: 900; 
+  margin:0;
+}
+.text{
+  margin:20px 0;
+  text-align: center; 
+  font-size: 15px;
+}
+.text a{
+  color:rgb(208, 40, 99) ;
+  font-weight: 700;
+}
+
+footer{
+  background-image:url(images/black-geometric-memphis-social-banner_53876-116843.avif);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height:100px;
+  width:100%;
+  margin-top:1em;
+  padding:40px 10px;
+  color:#fff;
+  font-size:18px
+}
+footer span{
+  color:rgb(208, 40, 99);
+}
